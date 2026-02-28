@@ -1,4 +1,4 @@
-package com.capgemini.repository;
+package com.batchprocessing.repository;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

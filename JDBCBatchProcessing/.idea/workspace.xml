@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58f46f7f-174e-492a-8ed0-6134a0339529" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Capgemini_training.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="58f46f7f-174e-492a-8ed0-6134a0339529" name="Changes" comment="class notes">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchprocessing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchprocessing/dao/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/dao/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchprocessing/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchprocessing/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/capgemini/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/batchprocessing/repository/EmployeeRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "patelishaan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/patelishaan/Capgemini_training.git",
+    "accountId": "bb76a25c-085a-494d-a7bd-ad31d5fb6243"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -36,6 +48,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -73,11 +86,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1772257162062</updated>
-      <workItem from="1772257163171" duration="436000" />
+      <workItem from="1772257163171" duration="2585000" />
     </task>
+    <task id="LOCAL-00001" summary="class notes">
+      <option name="closed" value="true" />
+      <created>1772257837520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772257837520</updated>
+    </task>
+    <task id="LOCAL-00002" summary="class notes">
+      <option name="closed" value="true" />
+      <created>1772257872496</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772257872496</updated>
+    </task>
+    <task id="LOCAL-00003" summary="class notes">
+      <option name="closed" value="true" />
+      <created>1772257882706</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772257882706</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="class notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="class notes" />
   </component>
 </project>

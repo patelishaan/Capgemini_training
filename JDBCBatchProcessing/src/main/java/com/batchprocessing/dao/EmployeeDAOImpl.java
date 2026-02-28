@@ -1,9 +1,11 @@
-package com.capgemini.dao;
-import com.capgemini.entity.Employee;
-import com.capgemini.repository.EmployeeRepository;
+package com.batchprocessing.dao;
+import com.batchprocessing.entity.Employee;
+import com.batchprocessing.repository.EmployeeRepository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
 
 public class EmployeeDAOImpl implements EmployeeDAO{
     public void insertEmployee(Employee emp){
@@ -31,5 +33,21 @@ public class EmployeeDAOImpl implements EmployeeDAO{
         }catch (Exception e){
             e.printStackTrace();
         }
+    }
+    @Override
+    public void insertBatch(List<Employee> emps) throws SQLException {
+        Connection connection = EmployeeRepository.getConnection();
+        String insertQuery = "INSERT INTO employees VALUES(?,?,?)";
+        PreparedStatement st = connection.prepareStatement(insertQuery);
+        for(Employee e:emps){
+            st.setInt(1,e.getEmp_id());
+            st.setString(2,e.getEmpName());
+            st.setDouble(3,e.getEmpSal());
+            st.addBatch();
+        }
+        int[] result = st.executeBatch();
+        System.out.println("Inserted Rows:"+result.length);
+        connection.close();
+
     }
 }

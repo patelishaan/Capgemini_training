@@ -1,7 +1,7 @@
-package com.capgemini;
-import com.capgemini.dao.EmployeeDAO;
-import com.capgemini.dao.EmployeeDAOImpl;
-import com.capgemini.entity.Employee;
+package com.batchprocessing;
+import com.batchprocessing.dao.EmployeeDAO;
+import com.batchprocessing.dao.EmployeeDAOImpl;
+import com.batchprocessing.entity.Employee;
 
 public class Main {
     public static void main(String[] args){
