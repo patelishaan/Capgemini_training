@@ -8,7 +8,8 @@ public interface EmployeeDAO {
     void insertEmployee(Employee empy);
     void updateEmployee(String newname, int old_id);
     void insertBatch(List<Employee> emps) throws SQLException;
-//    void deleteBatch(List<Employee> emps);
+    void deleteBatch(List<Employee> emps) throws SQLException;
+    void updateBatch(List<Employee> emps) throws SQLException;
 //    List<Employee> fetchAll() throws SQLException;
 
 //    void deleteEmployee(int playerId);

@@ -50,4 +50,30 @@ public class EmployeeDAOImpl implements EmployeeDAO{
         connection.close();
 
     }
+    @Override
+    public void deleteBatch(List<Employee> emps) throws SQLException{
+        Connection connection = EmployeeRepository.getConnection();
+        String deleteQuery = "DELETE FROM EMPLOYEES WHERE EMP_ID=?";
+        PreparedStatement st = connection.prepareStatement(deleteQuery);
+        for(Employee e:emps){
+            st.setInt(1,e.getEmp_id());
+            st.addBatch();
+        }
+        int[] results = st.executeBatch();
+        System.out.println("deleted rows");
+        //Connection.close();
+    }
+    @Override
+    public void updateBatch(List<Employee> emps) throws SQLException{
+        Connection connection = EmployeeRepository.getConnection();
+        String updateQuery = "UPDATE EMPLOYEES SET EMP_NAME = ?, EMP_SAL=? WHERE EMP_ID=?";
+        PreparedStatement st = connection.prepareStatement(updateQuery);
+        for(Employee e:emps){
+            st.setString(1,e.getEmpName());
+            st.setDouble(2,e.getEmpSal());
+            st.setInt(3,e.getEmp_id());
+        }
+        int[] resuts = st.executeBatch();
+        System.out.println("updated rows");
+    }
 }
