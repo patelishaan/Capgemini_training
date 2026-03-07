@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3ea6f37-4f55-4c72-89d8-2a0fc545d68c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JPA_3mar2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA_3mar2026/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Studentlaptop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Studentlaptop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onetoonemapping/.idea/bongoSticker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../onetoonemapping/.idea/bongoSticker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onetoonemapping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../onetoonemapping/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +100,8 @@
       <updated>1772441475866</updated>
       <workItem from="1772441479903" duration="8019000" />
       <workItem from="1772471733166" duration="344000" />
+      <workItem from="1772858692675" duration="42000" />
+      <workItem from="1772873601261" duration="250000" />
     </task>
     <servers />
   </component>

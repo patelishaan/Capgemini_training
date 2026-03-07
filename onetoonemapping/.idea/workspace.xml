@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12243527-937c-408c-a6d7-03aa9c162b48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Studentlaptop/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Studentlaptop/.idea/bongoSticker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Studentlaptop/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Studentlaptop/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Studentlaptop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Studentlaptop/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Studentlaptop/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Studentlaptop/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JPA_3mar2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA_3mar2026/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_hibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Student_hibernate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Studentlaptop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Studentlaptop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bongoSticker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bongoSticker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +91,9 @@
       <updated>1772517568596</updated>
       <workItem from="1772517569635" duration="3139000" />
       <workItem from="1772527304731" duration="1253000" />
+      <workItem from="1772686111364" duration="1040000" />
+      <workItem from="1772703759585" duration="9000" />
+      <workItem from="1772858736063" duration="2472000" />
     </task>
     <servers />
   </component>
