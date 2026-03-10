@@ -1,0 +1,5 @@
+C:\Users\ishaan\Desktop\Github\Capgemini_training\JDBCApplication_assignment_7march\src\main\java\ProductInventoryManagement\app\MainApp.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\JDBCApplication_assignment_7march\src\main\java\ProductInventoryManagement\dao\ProductDAO.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\JDBCApplication_assignment_7march\src\main\java\ProductInventoryManagement\model\Product.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\JDBCApplication_assignment_7march\src\main\java\ProductInventoryManagement\util\DBConnection.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\JDBCApplication_assignment_7march\src\test\java\org\example\AppTest.java

@@ -1,0 +1,16 @@
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\Main.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\FunctionalInterface\AllExample.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\FunctionalInterface\ConsumerExample.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\FunctionalInterface\FunctionExample.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\FunctionalInterface\PredicateExample.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\FunctionalInterface\SupplierExample.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\FunctionalInterface\Test.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\SimpleInterface\File01.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\SimpleInterface\FuncInterface.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\SimpleInterface\NewClass.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\SimpleInterface\SimpleClass.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\Stream\Employee.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\Stream\EmpStream.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\Stream\FreqCount.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\Stream\SecondHighest.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\AdvancedJava\FunctionalInterfacesAndStreamApi\src\Stream\StreamAPI.java

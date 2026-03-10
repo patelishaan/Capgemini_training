@@ -4,65 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05ecb08-696d-4ced-8991-a58210c2f015" name="Changes" comment="">
+    <list default="true" id="1551fc7b-5c0c-4328-bf55-8ce55a1a98ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Studentlaptop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Studentlaptop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Studentlaptop/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTest_2Mar2026/Testing/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UnitTest_2Mar2026/Testing/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;patelishaan&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "patelishaan"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/patelishaan/Capgemini_training.git&quot;,
-    &quot;accountId&quot;: &quot;bb76a25c-085a-494d-a7bd-ad31d5fb6243&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/patelishaan/Capgemini_training.git",
+    "accountId": "bb76a25c-085a-494d-a7bd-ad31d5fb6243"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="3AQbOwoMcyxFAsEZOkYBCCNm0I2" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3AkOMRr96flmQIWyZCye0ZXrzcS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.App.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -77,14 +68,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a05ecb08-696d-4ced-8991-a58210c2f015" name="Changes" comment="" />
-      <created>1772527715271</created>
+      <changelist id="1551fc7b-5c0c-4328-bf55-8ce55a1a98ef" name="Changes" comment="" />
+      <created>1773133056377</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1772527715271</updated>
-      <workItem from="1772527716611" duration="6407000" />
-      <workItem from="1772873633261" duration="19000" />
-      <workItem from="1773032086272" duration="1264000" />
+      <updated>1773133056377</updated>
+      <workItem from="1773133060446" duration="55000" />
     </task>
     <servers />
   </component>

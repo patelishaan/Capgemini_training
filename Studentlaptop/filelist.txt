@@ -1,0 +1,7 @@
+C:\Users\ishaan\Desktop\Github\Capgemini_training\Studentlaptop\src\main\java\com\capgemini\App.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\Studentlaptop\src\main\java\com\capgemini\dao\StudentDAO.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\Studentlaptop\src\main\java\com\capgemini\dao\StudentDaoImpl.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\Studentlaptop\src\main\java\com\capgemini\entity\Laptop.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\Studentlaptop\src\main\java\com\capgemini\entity\Student.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\Studentlaptop\src\main\java\com\capgemini\repository\Repository.java
+C:\Users\ishaan\Desktop\Github\Capgemini_training\Studentlaptop\src\test\java\org\example\AppTest.java
