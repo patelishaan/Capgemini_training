@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="bean_id" class="iocwithxml.Employee"/>
+    <bean id="bean2" class="iocwithxml.Employee"/>
+
+    <bean id="emp01" class="iocwithxml.Employee">
+        <property name="id" value="01"></property>
+        <property name="name" value="Ramesh"></property>
+        <property name="salary" value="27666"></property>
+    </bean>
+    <bean id="emp02" class="iocwithxml.Employee">
+        <property name="id" value="02"></property>
+        <property name="name" value="Suresh"></property>
+        <property name="salary" value="88773"></property>
+    </bean>
+    <bean id="emp03" class="iocwithxml.Employee">
+        <property name="id" value="03"></property>
+        <property name="name" value="Modi"></property>
+        <property name="salary" value="33221"></property>
+    </bean>
+</beans>

@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1551fc7b-5c0c-4328-bf55-8ce55a1a98ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCApplication_assignment_7march/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Studentlaptop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Studentlaptop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Studentlaptop/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTest_2Mar2026/Testing/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UnitTest_2Mar2026/Testing/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1551fc7b-5c0c-4328-bf55-8ce55a1a98ef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,11 +38,17 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -73,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773133056377</updated>
-      <workItem from="1773133060446" duration="55000" />
+      <workItem from="1773133060446" duration="857000" />
     </task>
     <servers />
   </component>
