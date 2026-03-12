@@ -3,11 +3,14 @@ package iocwithxml;
 import dependencyinjection.Book;
 import dependencyinjection.Library;
 import dependencyinjection.Library1;
+import dependencyinjectionusingmap.Kit;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
+import postpre.Vehicle;
 
 public class App {
     public static void main(String[] args) {
@@ -27,6 +30,13 @@ public class App {
         Library1 Lib1 = (Library1) beanFactory4.getBean("Lib1");
         System.out.println(Lib1);
 
+        BeanFactory beanFactory5 = new XmlBeanFactory(new ClassPathResource("map_kit.xml"));
+        Kit k1 = (Kit) beanFactory5.getBean("kit_id");
+        System.out.println(k1);
+
+        ApplicationContext context = new ClassPathXmlApplicationContext("post_and_pre.xml");
+        Vehicle v1 = (Vehicle) context.getBean("v_id");
+        ((AbstractApplicationContext)context).close();
 
 //        Employee emp2 = (Employee) beanFactory1.getBean("bean_id");
 //        System.out.println(emp2);
