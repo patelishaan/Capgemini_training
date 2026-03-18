@@ -5,6 +5,7 @@ import com.capg.bank.config.CustomMapper;
 import com.capg.bank.entity.Account;
 import com.capg.bank.entity.dto.AccountDto;
 import com.capg.bank.entity.dto.AccountResponseDto;
+import com.capg.bank.exception.AccountNotFoundException;
 import com.capg.bank.repository.AccountRepository;
 import com.capg.bank.service.AccountService;
 import lombok.RequiredArgsConstructor;
@@ -34,4 +35,10 @@ public class AccountServiceImpl implements AccountService {
                 .orElseThrow(()->new RuntimeException("account not found"));
         return modelMapper.map(account, AccountResponseDto.class);
     }
+//    @Override
+//    public AccountResponseDto findById(Integer id){
+//        Account account = accountRepository.findById(id)
+//                .orElseThrow(()->new AccountNotFoundException("account not found for your id"+id));
+//        return modelMapper.map(account, AccountResponseDto.class);
+//    }
 }
