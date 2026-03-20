@@ -21,6 +21,7 @@ public class CustomerServiceImpl implements CustomerService {
         Customer customer = Customer.builder()
                 .name(dto.getName())
                 .email(dto.getEmail())
+                //.accounts(dto.getAccount())
                 .build();
         return customerRepo.save(customer);
     }

@@ -31,5 +31,19 @@ public class AccountController {
         return ResponseEntity.status(HttpStatus.OK).body(new ResponseDto(AccountConstant.STATUS_200, AccountConstant.Message_get, accountDto));
 
     }
+    @PostMapping("/tramsfer")
+    public ResponseEntity<ResponseDto> transferAmount(@RequestParam Integer fromId,
+                                                      @RequestParam Integer toId,
+                                                      @RequestParam Long amount){
+        accountService.transferMoney(fromId,toId,amount);
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(new ResponseDto(
+                        AccountConstant.STATUS_200,
+                        "Account Transfer",
+                        null
+                ));
+    }
+
 
 }

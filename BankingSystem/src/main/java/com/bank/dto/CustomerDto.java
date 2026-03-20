@@ -4,6 +4,8 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 
+import java.util.List;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -15,4 +17,5 @@ public class CustomerDto {
     @Email(message = "Invalid email")
     @NotBlank(message = "Email is required")
     private String email;
+    private List<AccountDto> account;
 }
