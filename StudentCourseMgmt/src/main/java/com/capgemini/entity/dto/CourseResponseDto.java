@@ -1,5 +1,4 @@
 package com.capgemini.entity.dto;
-
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,9 +9,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@JsonInclude(JsonInclude.Include.NON_NULL)
-public class StudentResponseDto {
-    private Long id;
-    private String name;
-    private List<CourseResponseDto> courses;
+public class CourseResponseDto {
+    private Long courseId;
+    private String courseName;
 }

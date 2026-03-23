@@ -1,5 +1,6 @@
 package com.capgemini.service.impl;
 
+import com.capgemini.entity.Courses;
 import com.capgemini.entity.Student;
 import com.capgemini.entity.dto.StudentRequestDto;
 import com.capgemini.entity.dto.StudentResponseDto;
@@ -21,9 +22,19 @@ public class StudentServiceImpl implements StudentService {
     @Transactional
     public void enrollStudent(StudentRequestDto studentRequestDto){
         Student s1 = new Student();
-        //s1.setId(studentRequestDto.getId());
-        s1.setCourses(studentRequestDto.getCourses());
         s1.setName(studentRequestDto.getName());
+        List<Courses> coursesList = studentRequestDto.getCourses().stream()
+                .map(courseName -> {
+                    Courses c = new Courses();
+                    c.setCourseName(courseName);
+                    c.setStudent(s1);
+                    return c;
+                })
+                .collect(Collectors.toList());
+
+        //s1.setId(studentRequestDto.getId());
+        s1.setCourses(coursesList);
+
         studentRepository.save(s1);
     }
 
@@ -35,7 +46,7 @@ public class StudentServiceImpl implements StudentService {
 
 
     public List<StudentResponseDto> getStudentsByCourse(String course){
-        List<Student> students = studentRepository.findStudentsByCourses(course);
+        List<Student> students = studentRepository.findStudentsByCourses_CourseName(course);
         return students.stream()
                 .map(student -> modelMapper.map(student,StudentResponseDto.class))
                 .collect(Collectors.toList());

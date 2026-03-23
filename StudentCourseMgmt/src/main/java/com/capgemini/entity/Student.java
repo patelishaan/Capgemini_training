@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.engine.internal.Cascade;
 
 import java.util.List;
 
@@ -17,8 +18,9 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    @ElementCollection
-    private List<String> courses;
+//    @ElementCollection
+//    private List<String> courses;
+    @OneToMany(mappedBy = "student", cascade = CascadeType.ALL)
+    private List<Courses> courses;
 
 }
-//this is my name ptriyanshu singh chauahan wow this is my name and i am veru
