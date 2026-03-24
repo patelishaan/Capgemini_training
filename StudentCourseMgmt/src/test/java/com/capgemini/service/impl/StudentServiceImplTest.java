@@ -1,5 +1,6 @@
 package com.capgemini.service.impl;
 
+import com.capgemini.entity.Courses;
 import com.capgemini.entity.Student;
 import com.capgemini.entity.dto.StudentRequestDto;
 import com.capgemini.entity.dto.StudentResponseDto;
@@ -56,6 +57,33 @@ class StudentServiceImplTest {
         studentService.enrollStudent(studentRequestDto);
         //verify (not assertEquals) because enrollStudent does not return anything
         verify(studentRepository, times(1)).save(any(Student.class));
+    }
+
+    @Test
+    void testgetStudentsByCourse(){
+        //arrange fake data
+        Student s1 = new Student();
+        s1.setId(4L);
+        s1.setName("ModiJi");
+
+        //fake response dto to give response
+        StudentResponseDto fakedto = new StudentResponseDto();
+        fakedto.setName("ModiJi");
+        fakedto.setId(4L);
+
+        //mock repository
+        when(studentRepository.findStudentsByCourses_CourseName("Entire Political Science"))
+                .thenReturn(List.of(s1));
+        //mock mapping
+        when(modelMapper.map(s1,StudentResponseDto.class))
+                .thenReturn(fakedto);
+        List<StudentResponseDto> result = studentService.getStudentsByCourse("Entire Political Science");
+        assertEquals(1, result.size());
+        assertEquals("ModiJi", result.get(0).getName());
+
+
+
+
     }
 
 }
